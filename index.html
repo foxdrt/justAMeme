@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            background-image: url("https://wallpapercave.com/wp/wp4585090.png");
+            transition: background-image 3s ease-in;
+        }
+
+        #MEME {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 130px;
+            height: 80px;
+            background-color: rgb(102, 255, 102);
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            border-radius: 3px;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <button id="MEME">Free Roubx click here!</button>
+    <script>
+        const button = document.getElementById("MEME")
+        button.onclick = function () {
+            document.body.style.backgroundImage = `url("https://www.icegif.com/wp-content/uploads/rick-roll-icegif-5.gif")`
+        }
+    </script>
+</body>
+
+</html>
